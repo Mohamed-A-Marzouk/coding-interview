@@ -1,13 +1,13 @@
 
 
-java:S1192,"GDefine a constant instead of duplicating this literal " games" 3 times.(ÛâÜ©ûÿÿÿÿ8Ÿô™Ÿè1J$6caf1fe7-1d1e-4299-adf3-338d1516d710
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üñã8¡ô™Ÿè1J$511bf852-61af-40ec-98df-636eb5a6fdb6
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûœ¼Ãşÿÿÿÿ8¡ô™Ÿè1J$ddad5404-3488-4bd0-bf11-121ed4044873
+java:S1192,"GDefine a constant instead of duplicating this literal " games" 3 times.(ÛâÜ©ûÿÿÿÿ8¡×ğ¡è1J$03bec56b-83e0-40b9-a40d-5283954dbfb7
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üñã8¢×ğ¡è1J$9e4d6468-70be-4506-a47c-a8b79f89b1a8
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûœ¼Ãşÿÿÿÿ8¢×ğ¡è1J$5d3c1f8f-4a86-4b3c-952d-fb1d38ef3488
 ª
-java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "randomMove".(¸Ğ…ëúÿÿÿÿ8¢ô™Ÿè1J$c19603f1-21a3-4619-961b-b3c07e1f1647
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "randomMove".(¸Ğ…ëúÿÿÿÿ8£×ğ¡è1J$a55be3c7-a50d-45e4-b550-5a711a396bed
 u
-java:S1172""2Remove this unused method parameter "playerBMove".(Éû–¦8¯ô™Ÿè1J$464fdc2d-fb71-4895-ac4c-6033b405d72b
-r	java:S106,"+Replace this use of System.out by a logger.(ÛâÜ©ûÿÿÿÿ8°ô™Ÿè1J$262e2390-8e18-4fea-b839-cddbc5de2ee4
-m	java:S106-"+Replace this use of System.out by a logger.(ı¨œİ8°ô™Ÿè1J$ab2c073e-b06b-4e8e-a895-d050da16e00e
-r	java:S106."+Replace this use of System.out by a logger.(ÌÄ“ûşÿÿÿÿ8°ô™Ÿè1J$163bf221-111f-43ed-bdb6-6221ef35b958
-ƒ	java:S125<"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8±ô™Ÿè1J$820e24a4-cb86-4bad-a47b-226f0cca70ab
+java:S1172""2Remove this unused method parameter "playerBMove".(‡ì×Ë8±×ğ¡è1J$06dac5b4-1801-44a1-a1c2-425a366a3ba2
+r	java:S106,"+Replace this use of System.out by a logger.(ÛâÜ©ûÿÿÿÿ8²×ğ¡è1J$8c55af51-2a02-4d69-b031-71f10760cb71
+m	java:S106-"+Replace this use of System.out by a logger.(ı¨œİ8²×ğ¡è1J$89000d6f-f057-46fe-a0eb-a842482b61d1
+r	java:S106."+Replace this use of System.out by a logger.(ÌÄ“ûşÿÿÿÿ8²×ğ¡è1J$efc2fa25-e90f-4ba5-9baa-e17055493779
+ƒ	java:S125<"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8³×ğ¡è1J$4bbb4fc4-3e55-4123-b597-e58dae91c002

@@ -3,17 +3,17 @@ package org.example;
 import java.util.Random;
 
 public class Game {
-    private static int playerAWins = 0;
-    private static int playerBWins = 0;
-    private static int draws = 0;
+    private int playerAWins = 0;
+    private int playerBWins = 0;
+    private int draws = 0;
 
-    private static Random random = new Random();
-    private static Move getRandomMove() {
+    private Random random = new Random();
+    private Move getRandomMove() {
         int randomNumber = random.nextInt(3);
         Move randomMove = Move.values()[randomNumber];
         return randomMove;
     }
-    private static void playRound() {
+    private void playRound() {
         Move player_A_Move = getRandomMove();
         Move player_B_Move = Move.ROCK;
 
@@ -31,7 +31,7 @@ public class Game {
         }
     }
 
-    private static Result getRoundResult(Move playerAMove, Move playerBMove){
+    public Result getRoundResult(Move playerAMove, Move playerBMove){
         if(playerAMove.equals(Move.ROCK)){
             return Result.DRAW;
         } else if (playerAMove.equals(Move.PAPER)) {
