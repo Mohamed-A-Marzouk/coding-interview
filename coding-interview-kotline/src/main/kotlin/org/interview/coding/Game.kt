@@ -21,12 +21,22 @@ class Game {
         }
     }
     fun getRoundResult(playerAMove: Move, playerBMove: Move): Result {
-        return if (playerAMove == Move.ROCK) {
-            Result.DRAW
-        } else if (playerAMove == Move.PAPER) {
-            Result.WIN
-        } else {
-            Result.LOSE
+
+      return when{
+            playerAMove == playerBMove -> Result.DRAW
+
+            playerAMove == Move.ROCK && playerBMove == Move.SCISSORS ||
+                    (playerAMove == Move.ROCK && playerBMove == Move.LIZARD) ||
+                    (playerAMove == Move.PAPER && playerBMove == Move.ROCK)||
+                    (playerAMove == Move.PAPER && playerBMove == Move.SPOCK)||
+                    (playerAMove == Move.SCISSORS && playerBMove == Move.PAPER)||
+                    (playerAMove == Move.SCISSORS && playerBMove == Move.LIZARD)||
+                    (playerAMove == Move.LIZARD && playerBMove == Move.PAPER)||
+                    (playerAMove == Move.LIZARD && playerBMove == Move.SPOCK) ||
+                    (playerAMove == Move.SPOCK && playerBMove == Move.SCISSORS)||
+                    (playerAMove == Move.SPOCK && playerBMove == Move.ROCK)
+            -> Result.WIN
+            else -> Result.LOSE
         }
     }
 

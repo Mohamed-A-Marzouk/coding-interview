@@ -1,5 +1,5 @@
 package org.interview.coding
 
 enum class Move {
-    ROCK,PAPER,SCISSORS
+    ROCK,PAPER,SCISSORS,SPOCK,LIZARD
 }
